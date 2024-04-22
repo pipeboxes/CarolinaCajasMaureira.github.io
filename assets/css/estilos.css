@@ -1,0 +1,61 @@
+/* CSS CV */
+
+body {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  /* Hero Section */
+  
+  #Hero-Section {
+    background-image: url("../img/bg-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+  .navbar {
+    background-color: #597E52; /* Cambiar el color de fondo a #597E52 */
+}
+.bg-experiencia {
+    background-color: #C6A969;
+}
+
+.bg-informacion { 
+    --bs-bg-opacity: 1;
+    background-color: #597E52;
+}
+   
+  /* Mis trabajos */
+  
+  #Mis-trabajos .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .btn-outline-info {
+    color: white;
+    border-color: #C6A969;
+    background-color: #C6A969;
+}
+  
+  /* Contacto */
+  
+  #Contacto form label {
+    font-weight: 700;
+    color: grey;
+  }
+  .bg-footer {
+    background-color: #597E52;
+  }
+
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand{
+      width: 100px;
+    }
+  
+  }
+  
